@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css'?>
+<map xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:xs="http://www.w3.org/2001/XMLSchema" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="map:1;3:6" xtrf="file:/C:/Users/user/Desktop/Environment%20Setup/setting_up_your_authoring_and_publishing_environment.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><title xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">Setting up Authoring and Publishing Environment for your Project</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
+    <title class="- topic/title ">Setting up Authoring and Publishing Environment for your Project</title>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="introduction"><resourceid appid="introduction" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Introduction</navtitle><?ditaot gentext?></topicmeta></topicref>
+    
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Setting up the XML Authoring Environment"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d122e23">Setting up the XML Authoring Environment</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_2" type="task"><topicmeta class="- map/topicmeta " data-topic-id="installing_the_oxygen_xml_authoring_tool"><resourceid appid="installing_the_oxygen_xml_authoring_tool" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Installing the Oxygen XML Authoring Tool</navtitle><?ditaot gentext?></topicmeta></topicref></topichead>
+    
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Setting up the GitHub Environment"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d122e33">Setting up the GitHub Environment</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_3" type="task"><topicmeta class="- map/topicmeta " data-topic-id="create_a_free_github_personal_account"><resourceid appid="create_a_free_github_personal_account" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Creating a GitHub Account</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Before you start work on GitHub, you must first create your personal account. </shortdesc></topicmeta></topicref><topicref class="- map/topicref " href="#unique_4" type="task"><topicmeta class="- map/topicmeta " data-topic-id="signing_into_github"><resourceid appid="signing_into_github" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">Signing in to GitHub</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">Sign in to GitHub to access projects and repositories.</shortdesc></topicmeta></topicref></topichead>
+    
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Publishing the outputs from DITA XML"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d122e57">Publishing the outputs from DITA XML</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_5" type="task"><topicmeta class="- map/topicmeta " data-topic-id="create_a_public_github_respository"><resourceid appid="create_a_public_github_respository" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Creating a Public GitHub Respository</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_6" type="task"><topicmeta class="- map/topicmeta " data-topic-id="publishing_outputs_from_dita_xml"><resourceid appid="publishing_outputs_from_dita_xml" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">Publishing outputs from DITA XML</navtitle><?ditaot gentext?></topicmeta></topicref><topicref class="- map/topicref " href="#unique_7" type="task"><topicmeta class="- map/topicmeta " data-topic-id="upload_dita_xmlsource_files_to_github_repository"><resourceid appid="upload_dita_xmlsource_files_to_github_repository" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">Uploading DITA XML source files to GitHub repository</navtitle><?ditaot gentext?></topicmeta></topicref></topichead>
+</opentopic:map><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="introduction" oid="introduction" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Introduction</ph></title>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Use this document to install the required software on your computer to develop, review,
+            and publish your very first technical documentation project. </p>
+        <section class="- topic/section " id="unique_1_Connect_42_section_z51_v33_bwb" nd:nd-id="section_z51_v33_bwb">
+            <title class="- topic/title ">Environment set up</title>
+            <p class="- topic/p ">To document and publish your first technical documentation project, you will need the
+                following:</p>
+            <ul class="- topic/ul " id="unique_1_Connect_42_ul_x5w_dq3_bwb" nd:nd-id="ul_x5w_dq3_bwb">
+                <li class="- topic/li ">Oxygen XML authoring tool.</li>
+                <li class="- topic/li ">A public GitHub repository. </li>
+            </ul>
+        </section>
+    </conbody>
+</concept><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d122e23" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Setting up the XML Authoring Environment</ph></title><task class="- topic/topic task/task " id="unique_2" topicrefclass="- map/topicref " nd:nd-id="installing_the_oxygen_xml_authoring_tool" oid="installing_the_oxygen_xml_authoring_tool" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Installing the Oxygen XML Authoring Tool</ph></title>
+    <taskbody class="- topic/body task/taskbody ">
+        <context class="- topic/section task/context "><p class="- topic/p ">Use this procedure to install the Oxygen XML authoring tool (version 25.0 or
+                later). </p><p class="- topic/p ">You can also watch the following video for more information on the
+                installation.</p>
+            <object class="- topic/object " data="https://www.youtube.com/embed/2MaVau2oaLs" outputclass="iframe"/></context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">On a browser instance, type <xref class="- topic/xref " format="html" href="http://www.oxygenxml.com" scope="external"><?ditaot usertext?>www.oxygenxml.com</xref>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:1;17:41" xtrf="file:/C:/Users/user/Desktop/Environment%20Setup/installing_the_oxygen_xml_authoring_tool.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Products</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Oxygen XML Author</uicontrol></menucascade>.</cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <fig class="- topic/fig " id="unique_2_Connect_42_fig_lln_byb_xvb" nd:nd-id="fig_lln_byb_xvb"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Oxygen XML Author Installation</ph></title><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Installation%20--%20Products-Oxygen%20XML%20Author.png" id="unique_2_Connect_42_image_mln_byb_xvb" nd:nd-id="image_mln_byb_xvb" placement="inline" width="6in">
+                            <alt class="- topic/alt ">Displays a web page with a snapshot of products that include the
+                                Oxygen XML Author.</alt>
+                        </image></fig>
+                </info>
+                <stepresult class="- topic/itemgroup task/stepresult ">The following web page displays:<fig class="- topic/fig " id="unique_2_Connect_42_fig_iw5_cnj_bwb" nd:nd-id="fig_iw5_cnj_bwb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Installation%20-%20XML%20Author%20web%20page.png" id="unique_2_Connect_42_image_n1n_dnj_bwb" nd:nd-id="image_n1n_dnj_bwb" placement="inline" width="6in"/></fig></stepresult>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <menucascade class="+ topic/ph ui-d/menucascade " xtrc="menucascade:2;37:41" xtrf="file:/C:/Users/user/Desktop/Environment%20Setup/installing_the_oxygen_xml_authoring_tool.dita"><uicontrol class="+ topic/ph ui-d/uicontrol ">Downloads</uicontrol><uicontrol class="+ topic/ph ui-d/uicontrol ">Download</uicontrol></menucascade>.</cmd>
+                <stepresult class="- topic/itemgroup task/stepresult ">The following page displays: <fig class="- topic/fig " id="unique_2_Connect_42_fig_i1t_gzb_xvb" nd:nd-id="fig_i1t_gzb_xvb"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Installation -- Download Oxygen XML Author for 64-bit Windows</ph></title><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Installation%20--%20Download%20Oxygen%20XML%20Author%20for%2064-bit%20Windows.png" id="unique_2_Connect_42_image_jss_11c_xvb" nd:nd-id="image_jss_11c_xvb" placement="inline" scale="80" width="6in">
+                            <alt class="- topic/alt ">Displays the web page that enables you to download the
+                                OxygenXMLAuthor for the 64-bit operating system. </alt>
+                        </image></fig></stepresult>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Select the tab that corresponds to your operating system (here,
+                        <uicontrol class="+ topic/ph ui-d/uicontrol ">Windows</uicontrol>), and click
+                    <uicontrol class="+ topic/ph ui-d/uicontrol ">Download</uicontrol>.</cmd>
+                <stepresult class="- topic/itemgroup task/stepresult ">The executable (.exe) file downloads to your system. </stepresult>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">In the page that displays, enter the required details, to obtain your 30-day
+                    trial license.</cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <fig class="- topic/fig " id="unique_2_Connect_42_fig_dyf_p1c_xvb" nd:nd-id="fig_dyf_p1c_xvb"><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Oxygen Installation -- Getting the trial license</ph></title><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Installation%20--%20Getting%20the%20trial%20license.png" id="unique_2_Connect_42_image_kjs_q1c_xvb" nd:nd-id="image_kjs_q1c_xvb" placement="inline" scale="60" width="6in">
+                            <alt class="- topic/alt ">Displays the form to enter the required details to obtain the
+                                30-day trial license.</alt>
+                        </image></fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Start the installation wizard to install the Oxygen XML author. </cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Double-click the Oxygen XML Author shortcut on your desktop to invoke an
+                    instance of the software. </cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">When prompted, enter the 9-line license text in the space provided.</cmd>
+                <info class="- topic/itemgroup task/info ">To learn more about the Oxygen XML Author, visit: <xref class="- topic/xref " format="html" href="https://www.oxygenxml.com/doc/versions/25.0/ug-author" scope="external"/>.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d122e33" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Setting up the GitHub Environment</ph></title><task class="- topic/topic task/task " id="unique_3" topicrefclass="- map/topicref " nd:nd-id="create_a_free_github_personal_account" oid="create_a_free_github_personal_account" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Creating a GitHub Account</ph></title>
+    <shortdesc class="- topic/shortdesc ">Before you start work on GitHub, you must first create your personal account. </shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <context class="- topic/section task/context ">Use this procedure to create your own personal and free account to serve as your
+            identity on GitHub.</context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">On a browser instance, navigate to: <xref class="- topic/xref " format="html" href="www.github.com" scope="external"/>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">On the top right hand corner, click <uicontrol class="+ topic/ph ui-d/uicontrol ">Sign up</uicontrol>.</cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <fig class="- topic/fig " id="unique_3_Connect_42_fig_icf_hrb_bwb" nd:nd-id="fig_icf_hrb_bwb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/SignupForGithub.png" id="unique_3_Connect_42_image_mk5_3rb_bwb" nd:nd-id="image_mk5_3rb_bwb" placement="inline" width="5in"/></fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">In the popup dialog that displays, enter your email ID and a strong password. </cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <fig class="- topic/fig " id="unique_3_Connect_42_fig_xw2_kcc_bwb" nd:nd-id="fig_xw2_kcc_bwb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Github-enter%20your%20credentials.png" id="unique_3_Connect_42_image_uk3_mcc_bwb" nd:nd-id="image_uk3_mcc_bwb" placement="inline" width="3.75in"/></fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Continue</uicontrol> to create a free personal account to sign
+                    in to GitHub. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task><task class="- topic/topic task/task " id="unique_4" topicrefclass="- map/topicref " nd:nd-id="signing_into_github" oid="signing_into_github" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Signing in to GitHub</ph></title>
+    <shortdesc class="- topic/shortdesc ">Sign in to GitHub to access projects and repositories.</shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <prereq class="- topic/section task/prereq " id="unique_4_Connect_42_prereq_t1l_n4j_bwb" nd:nd-id="prereq_t1l_n4j_bwb">Before you begin, you must create a GitHub account. </prereq>
+        <context class="- topic/section task/context ">
+            <p class="- topic/p ">After you create an account in GitHub, you can sign in to access your project space
+                or repositories anytime. </p>
+        </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">On a browser instance, navigate to: <xref class="- topic/xref " format="html" href="www.github.com" scope="external"/>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">On the top right hand corner, click <uicontrol class="+ topic/ph ui-d/uicontrol ">Sign in</uicontrol>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Enter your credentials in the pop up dialog that displays, and click
+                        <uicontrol class="+ topic/ph ui-d/uicontrol ">Sign in</uicontrol>.</cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <fig class="- topic/fig " id="unique_4_Connect_42_fig_od2_m2c_bwb" nd:nd-id="fig_od2_m2c_bwb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/SignInTo_GitHub.png" id="unique_4_Connect_42_image_n3g_3fc_bwb" nd:nd-id="image_n3g_3fc_bwb" placement="inline" width="2.5in"/></fig>
+                </info>
+                <stepresult class="- topic/itemgroup task/stepresult ">The GitHub landing page displays:<fig class="- topic/fig " id="unique_4_Connect_42_fig_ljs_q2c_bwb" nd:nd-id="fig_ljs_q2c_bwb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/GitHub%20Landing%20Page.png" id="unique_4_Connect_42_image_zj2_jfc_bwb" nd:nd-id="image_zj2_jfc_bwb" placement="inline" width="6.5in"/></fig></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d122e57" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Publishing the outputs from DITA XML</ph></title><task class="- topic/topic task/task " id="unique_5" topicrefclass="- map/topicref " nd:nd-id="create_a_public_github_respository" oid="create_a_public_github_respository" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Creating a Public GitHub Respository</ph></title>
+    <taskbody class="- topic/body task/taskbody ">
+        <prereq class="- topic/section task/prereq " id="unique_5_Connect_42_prereq_w1p_hwt_1wb" nd:nd-id="prereq_w1p_hwt_1wb">Sign in to your personal GitHub account. For more
+            information, see: <xref class="- topic/xref " href="#unique_4" type="task"><?ditaot gentext?>Signing in to GitHub<?ditaot genshortdesc?><desc class="- topic/desc ">Sign in to GitHub to access projects and repositories.</desc></xref>.</prereq>
+        <context class="- topic/section task/context ">
+            <p class="- topic/p ">Use this procedure to create a public GitHub repository.</p>
+        </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">On an instance of a web browser, enter <xref class="- topic/xref " format="html" href="http://www.github.com" scope="external"><?ditaot usertext?>www.github.com</xref>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Sign in to GitHub with your credentials.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">On the top right corner of the page, click the drop-down arrow next to the plus
+                    (+) sign, and select <uicontrol class="+ topic/ph ui-d/uicontrol ">New repository</uicontrol>.</cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <fig class="- topic/fig " id="unique_5_Connect_42_fig_zqk_xnt_1wb" nd:nd-id="fig_zqk_xnt_1wb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Create%20a%20public%20Github%20Repository.png" id="unique_5_Connect_42_image_fpw_t4t_1wb" nd:nd-id="image_fpw_t4t_1wb" placement="inline" width="2in"/></fig>
+                </info>
+                <stepresult class="- topic/itemgroup task/stepresult ">The <uicontrol class="+ topic/ph ui-d/uicontrol ">Create a new repository</uicontrol> page displays:<fig class="- topic/fig " id="unique_5_Connect_42_fig_h1m_lpt_1wb" nd:nd-id="fig_h1m_lpt_1wb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Create%20a%20new%20public%20GitHub%20repository%20-%20Enlarged%20image.png" id="unique_5_Connect_42_image_o3p_lgc_bwb" nd:nd-id="image_o3p_lgc_bwb" placement="inline" width="5in"/></fig></stepresult>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Create a GitHub repository for your project files.</cmd>
+                <substeps class="- topic/ol task/substeps " id="unique_5_Connect_42_substeps_g5q_pjc_bwb" nd:nd-id="substeps_g5q_pjc_bwb">
+                    <substep class="- topic/li task/substep ">
+                        <cmd class="- topic/ph task/cmd ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Repository name*</uicontrol> field, enter a name for
+                            your repository of project files.</cmd>
+                        <info class="- topic/itemgroup task/info ">For example, enter: <cite class="- topic/cite ">DITA-XML sample</cite>. </info>
+                    </substep>
+                    <substep class="- topic/li task/substep " importance="optional">
+                        <cmd class="- topic/ph task/cmd ">Enter a description for the repository.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep ">
+                        <cmd class="- topic/ph task/cmd ">Select <uicontrol class="+ topic/ph ui-d/uicontrol ">Public</uicontrol>.</cmd>
+                        <info class="- topic/itemgroup task/info ">
+                            <note class="- topic/note " id="unique_5_Connect_42_note_xxc_3qt_1wb" nd:nd-id="note_xxc_3qt_1wb" type="important">Ensure that you create a
+                                public repository. That way anyone who has the URL to the repository
+                                will be able to access it.</note>
+                        </info>
+                    </substep>
+                    <substep class="- topic/li task/substep ">
+                        <cmd class="- topic/ph task/cmd ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Create repository</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task><task class="- topic/topic task/task " id="unique_6" topicrefclass="- map/topicref " nd:nd-id="publishing_outputs_from_dita_xml" oid="publishing_outputs_from_dita_xml" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Publishing outputs from DITA XML</ph></title>
+    <taskbody class="- topic/body task/taskbody ">
+        <context class="- topic/section task/context ">
+            <p class="- topic/p ">Use this procedure to publish outputs using the default transforms that come with the
+                Oxygen XML authoring tool. </p>
+        </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Open the ditamap in the DITA Maps Manager.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Configure Transformation Scenario(s)</uicontrol>.</cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <fig class="- topic/fig " id="unique_6_Connect_42_fig_c2y_sh5_1wb" nd:nd-id="fig_c2y_sh5_1wb"><image class="- topic/image " dita-ot:image-width="409" dita-ot:image-height="64" href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Publishing%20outputs.png" id="unique_6_Connect_42_image_uf5_th5_1wb" nd:nd-id="image_uf5_th5_1wb" placement="inline"/></fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Select the following transforms:</cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <ul class="- topic/ul " id="unique_6_Connect_42_ul_amp_c35_1wb" nd:nd-id="ul_amp_c35_1wb">
+                        <li class="- topic/li "><uicontrol class="+ topic/ph ui-d/uicontrol ">DITA Map PDF - based on HTML5 &amp; CSS</uicontrol> (to
+                            publish to PDF)</li>
+                        <li class="- topic/li "><uicontrol class="+ topic/ph ui-d/uicontrol ">DITA Map HTML5</uicontrol> (to publish to HTML5)</li>
+                    </ul>
+                    <fig class="- topic/fig " id="unique_6_Connect_42_fig_ic1_d35_1wb" nd:nd-id="fig_ic1_d35_1wb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Configure%20Transformation%20Scenarios.png" id="unique_6_Connect_42_image_kw5_d35_1wb" nd:nd-id="image_kw5_d35_1wb" placement="inline" width="4in"/></fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Apply associated</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task><task class="- topic/topic task/task " id="unique_7" topicrefclass="- map/topicref " nd:nd-id="upload_dita_xmlsource_files_to_github_repository" oid="upload_dita_xmlsource_files_to_github_repository" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Uploading DITA XML source files to GitHub repository</ph></title>
+    <taskbody class="- topic/body task/taskbody ">
+        <prereq class="- topic/section task/prereq " id="unique_7_Connect_42_prereq_ilc_spj_bwb" nd:nd-id="prereq_ilc_spj_bwb">Before you begin, ensure that you create a public GitHub
+            repository.</prereq>
+        <context class="- topic/section task/context ">
+            <p class="- topic/p ">You must upload DITA XML source files from the locally stored folder on your computer
+                to the GitHub repository, so that the files and the published outputs can be viewed
+                publicly. </p>
+        </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Go to <xref class="- topic/xref " format="html" href="http://www.github.com" scope="external"/>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click the link to your public repository (for example, <cite class="- topic/cite ">DITA-XML
+                        sample</cite>) under <uicontrol class="+ topic/ph ui-d/uicontrol ">Top repositories</uicontrol> on the left
+                    hand side of the web page. </cmd>
+                <stepresult class="- topic/itemgroup task/stepresult ">The repository opens up in the web page as follows: <fig class="- topic/fig " id="unique_7_Connect_42_fig_kdb_3mc_bwb" nd:nd-id="fig_kdb_3mc_bwb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Display%20of%20the%20public%20repository.png" id="unique_7_Connect_42_image_kv5_xmc_bwb" nd:nd-id="image_kv5_xmc_bwb" placement="inline" width="7in"/></fig></stepresult>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">uploading an existing file</uicontrol>.</cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <fig class="- topic/fig " id="unique_7_Connect_42_fig_hvg_dzt_1wb" nd:nd-id="fig_hvg_dzt_1wb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Uploading%20files%20in%20GitHub.png" id="unique_7_Connect_42_image_wwv_44c_bwb" nd:nd-id="image_wwv_44c_bwb" placement="inline" width="6in"/></fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Drag and drop the <b class="+ topic/ph hi-d/b ">entire folder</b> from your local folder to the
+                    repository, in the space provided. </cmd>
+                <info class="- topic/itemgroup task/info ">
+                    <fig class="- topic/fig " id="unique_7_Connect_42_fig_rhy_x15_1wb" nd:nd-id="fig_rhy_x15_1wb"><image class="- topic/image " href="file:/C:/Users/user/Desktop/Environment%20Setup/Images/Commit%20changes%20to%20GitHub%20repository.png" id="unique_7_Connect_42_image_v4h_z15_1wb" nd:nd-id="image_v4h_z15_1wb" placement="inline" width="6in"/></fig>
+                    <note class="- topic/note " id="unique_7_Connect_42_note_swf_db5_1wb" nd:nd-id="note_swf_db5_1wb" type="attention">Ensure that you upload the entire
+                        folder with all the supporting files like images etc., to the repository. </note>
+                </info>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Commit Changes</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task></topic></map>
