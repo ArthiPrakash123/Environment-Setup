@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="publishing_outputs_from_dita_xml">
+    <title>Publishing outputs from DITA XML</title>
+    <taskbody>
+        <context>
+            <p>Use this procedure to publish outputs using the default transforms that come with the
+                Oxygen XML authoring tool. </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the ditamap in the DITA Maps Manager.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Configure Transformation Scenario(s)</uicontrol>.</cmd>
+                <info>
+                    <fig id="fig_c2y_sh5_1wb">
+                        <image href="Images/Publishing%20outputs.png" id="image_uf5_th5_1wb"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Select any or all the following transforms:</cmd>
+                <info>
+                    <ul id="ul_amp_c35_1wb">
+                        <li><uicontrol>DITA Map PDF - based on HTML5 &amp; CSS</uicontrol> (to
+                            publish to PDF)</li>
+                        <li><uicontrol>DITA Map HTML5</uicontrol> (to publish to HTML5)</li>
+                    </ul>
+                    <fig id="fig_ic1_d35_1wb">
+                        <image href="Images/Publishing%20outputs.png" width="4in"
+                            id="image_vvl_dsj_bwb"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Apply associated</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <example id="example_mb3_2sj_bwb">Example of the HTML5 output:</example>
+    </taskbody>
+</task>

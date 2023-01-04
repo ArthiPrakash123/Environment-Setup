@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="upload_dita_xmlsource_files_to_github_repository">
+    <title>Uploading DITA XML source files to GitHub repository</title>
+    <taskbody>
+        <prereq id="prereq_ilc_spj_bwb">Before you begin, ensure that you create a public GitHub
+            repository.</prereq>
+        <context>
+            <p>You must upload DITA XML source files from the locally stored folder on your computer
+                to the GitHub repository, so that the files and the published outputs can be viewed
+                publicly. </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Go to <xref href="http://www.github.com" format="html" scope="external"
+                    />.</cmd>
+            </step>
+            <step>
+                <cmd>Click the link to your public repository (for example, <cite>DITA-XML
+                        sample</cite>) under <uicontrol>Top repositories</uicontrol> on the left
+                    hand side of the web page. </cmd>
+                <stepresult>The repository opens up in the web page as follows: <fig
+                        id="fig_kdb_3mc_bwb">
+                        <image href="Images/Display%20of%20the%20public%20repository.png"
+                            width="7in" id="image_kv5_xmc_bwb"/>
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>uploading an existing file</uicontrol>.</cmd>
+                <info>
+                    <fig id="fig_hvg_dzt_1wb">
+                        <image href="Images/Uploading%20files%20in%20GitHub.png" width="6in"
+                            id="image_wwv_44c_bwb"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Drag and drop the <b>entire folder</b> from your local folder to the
+                    repository, in the space provided. </cmd>
+                <info>
+                    <fig id="fig_rhy_x15_1wb">
+                        <image href="Images/Commit%20changes%20to%20GitHub%20repository.png"
+                            width="6in" id="image_v4h_z15_1wb"/>
+                    </fig>
+                    <note id="note_swf_db5_1wb" type="attention">Ensure that you upload the entire
+                        folder with all the supporting files like images etc., to the repository. </note>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Commit Changes</uicontrol>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

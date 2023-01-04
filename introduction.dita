@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="introduction">
+    <title>Introduction</title>
+    <conbody>
+        <p>Use this document to install the required software on your computer to develop, review,
+            and publish your very first technical documentation project. </p>
+        <section id="section_z51_v33_bwb">
+            <title>Environment set up</title>
+            <p>To document and publish your first technical documentation project, you will need the
+                following:</p>
+            <ul id="ul_x5w_dq3_bwb">
+                <li>Oxygen XML authoring tool.</li>
+                <li>A public GitHub repository. </li>
+            </ul>
+        </section>
+    </conbody>
+</concept>

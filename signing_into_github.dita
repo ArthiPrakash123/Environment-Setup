@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="signing_into_github">
+    <title>Signing in to GitHub</title>
+    <shortdesc>Sign in to GitHub to access projects and repositories.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_t1l_n4j_bwb">Before you begin, you must create a GitHub account. </prereq>
+        <context>
+            <p>After you create an account in GitHub, you can sign in to access your project space
+                or repositories anytime. </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>On a browser instance, navigate to: <xref href="www.github.com" format="html"
+                        scope="external"/>.</cmd>
+            </step>
+            <step>
+                <cmd>On the top right hand corner, click <uicontrol>Sign in</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Enter your credentials in the pop up dialog that displays, and click
+                        <uicontrol>Sign in</uicontrol>.</cmd>
+                <info>
+                    <fig id="fig_od2_m2c_bwb">
+                        <image href="Images/SignInTo_GitHub.png" width="2.5in"
+                            id="image_n3g_3fc_bwb"/>
+                    </fig>
+                </info>
+                <stepresult>The GitHub landing page displays:<fig id="fig_ljs_q2c_bwb">
+                        <image href="Images/GitHub%20Landing%20Page.png" width="6.5in"
+                            id="image_zj2_jfc_bwb"/>
+                    </fig></stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>
