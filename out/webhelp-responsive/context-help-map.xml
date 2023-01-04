@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
+   <appContext helpID="introduction" path="introduction.html"/>
    <appContext helpID="installing_the_oxygen_xml_authoring_tool"
                path="installing_the_oxygen_xml_authoring_tool.html"/>
    <appContext helpID="create_a_free_github_personal_account"
                path="create_a_free_github_personal_account.html"/>
+   <appContext helpID="signing_into_github" path="signing_into_github.html"/>
    <appContext helpID="create_a_public_github_respository"
                path="create_a_public_github_respository.html"/>
-   <appContext helpID="upload_dita_xmlsource_files_to_github_repository"
-               path="upload_dita_xmlsource_files_to_github_repository.html"/>
    <appContext helpID="publishing_outputs_from_dita_xml"
                path="publishing_outputs_from_dita_xml.html"/>
+   <appContext helpID="upload_dita_xmlsource_files_to_github_repository"
+               path="upload_dita_xmlsource_files_to_github_repository.html"/>
 </map>
