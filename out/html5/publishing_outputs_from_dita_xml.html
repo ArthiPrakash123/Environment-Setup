@@ -1,35 +1,53 @@
 <!DOCTYPE html
   SYSTEM "about:legacy-compat">
-<html lang="en"><head><meta charset="UTF-8"><meta name="DC.rights.owner" content="(C) Copyright 2023"><meta name="copyright" content="(C) Copyright 2023"><meta name="generator" content="DITA-OT"><meta name="DC.type" content="task"><meta name="DC.format" content="HTML5"><meta name="DC.identifier" content="publishing_outputs_from_dita_xml"><title>Publishing outputs from DITA XML</title><link rel="stylesheet" type="text/css" href="commonltr.css"></head><body id="publishing_outputs_from_dita_xml"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
-    <h1 class="title topictitle1" id="ariaid-title1">Publishing outputs from DITA XML</h1>
+<html lang="en"><head><meta charset="UTF-8"><meta name="DC.rights.owner" content="(C) Copyright 2023"><meta name="copyright" content="(C) Copyright 2023"><meta name="generator" content="DITA-OT"><meta name="DC.type" content="task"><meta name="DC.format" content="HTML5"><meta name="DC.identifier" content="publishing_outputs_from_dita_xml"><title>Publishing outputs from DITA XML using Oxygen</title><link rel="stylesheet" type="text/css" href="commonltr.css"></head><body id="publishing_outputs_from_dita_xml"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Publishing outputs from DITA XML using Oxygen</h1>
     <div class="body taskbody">
         <section class="section context">
-            <p class="p">Use this procedure to publish outputs using the default transforms that come with the
-                Oxygen XML authoring tool. </p>
+            <p class="p">Use this procedure to publish outputs using the built-in default XSL transforms
+                available with the Oxygen XML authoring tool. </p>
+            <div class="note note note_note" id="publishing_outputs_from_dita_xml__note_hxp_tyk_cwb"><span class="note__title">Note:</span> 
+                <p class="p">XSL Transforms (XSLT) process XML documents to convert them to HTML format. XSLT
+                    is a language originally designed for transforming XML documents into formats
+                    such as HTML for web pages, plain text etc., which may subsequently be further
+                    converted to other formats such as PDF. </p>
+            </div>
         </section>
         <section><ol class="ol steps"><li class="li step stepexpand">
-                <span class="ph cmd">Open the ditamap in the DITA Maps Manager.</span>
+                <span class="ph cmd">Invoke an instance of the Oxygen XML editor on your computer. </span>
             </li><li class="li step stepexpand">
-                <span class="ph cmd">Click Configure Transformation Scenario(s).</span>
-                <div class="itemgroup info">
-                    <figure class="fig fignone" id="publishing_outputs_from_dita_xml__fig_c2y_sh5_1wb">
-                        <img class="image" id="publishing_outputs_from_dita_xml__image_uf5_th5_1wb" src="Images/Publishing%20outputs.png">
-                    </figure>
-                </div>
+                <span class="ph cmd">Click <span class="ph uicontrol">File</span><span class="ph uicontrol">Open</span> to navigate to the
+                    location of the main ditamap (that contains other maps and topics) on your
+                    system.</span>
             </li><li class="li step stepexpand">
-                <span class="ph cmd">Select the following transforms:</span>
+                <span class="ph cmd">Click <span class="ph uicontrol">DITA Maps Manager</span>.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">Configure Transformation Scenario(s)</span>.</span>
+                <div class="itemgroup info"><figure class="fig fignone" id="publishing_outputs_from_dita_xml__fig_c2y_sh5_1wb">
+                        <img class="image" id="publishing_outputs_from_dita_xml__image_cs5_mbl_cwb" src="Images/Configure%20Transformation%20Scenarios%20icon.png" width="384">
+                    </figure>The <span class="ph uicontrol">Configure Transformation Scenario(s)</span> dialog box
+                    displays.</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Select <cite class="cite">one</cite> or <cite class="cite">all</cite> the following transforms:</span>
                 <div class="itemgroup info">
                     <ul class="ul" id="publishing_outputs_from_dita_xml__ul_amp_c35_1wb">
-                        <li class="li"><span class="ph uicontrol">DITA Map PDF - based on HTML5 &amp; CSS</span> (to
-                            publish to PDF)</li>
-                        <li class="li"><span class="ph uicontrol">DITA Map HTML5</span> (to publish to HTML5)</li>
+                        <li class="li"><span class="ph uicontrol">DITA Map WebHelp Responsive</span> to publish a web help
+                            output. </li>
+                        <li class="li"><span class="ph uicontrol">DITA Map PDF - based on HTML5 &amp; CSS</span> to
+                            publish a PDF</li>
+                        <li class="li"><span class="ph uicontrol">DITA Map HTML5</span> to publish a HTML5 output. </li>
                     </ul>
-                    <figure class="fig fignone" id="publishing_outputs_from_dita_xml__fig_ic1_d35_1wb">
-                        <img class="image" id="publishing_outputs_from_dita_xml__image_kw5_d35_1wb" src="Images/Configure%20Transformation%20Scenarios.png" width="384">
+                    <figure class="fig fignone" id="publishing_outputs_from_dita_xml__fig_y41_qbl_cwb">
+                        <img class="image" id="publishing_outputs_from_dita_xml__image_g51_rbl_cwb" src="Images/Configure%20Transformation%20Scenarios%20Dialog%20Box.png" width="480">
                     </figure>
                 </div>
             </li><li class="li step stepexpand">
                 <span class="ph cmd">Click <span class="ph uicontrol">Apply associated</span>.</span>
+                <div class="itemgroup stepresult">The transformation begins. You can view the progress in the progress bar
+                    at the bottom of the editor. <figure class="fig fignone" id="publishing_outputs_from_dita_xml__fig_hfl_ncl_cwb">
+                        <img class="image" id="publishing_outputs_from_dita_xml__image_hwc_4cl_cwb" src="Images/DITA%20transformation%20progress%20bar.png" width="672">
+                    </figure><p class="p">Once published, your system automatically displays the published
+                        outputs - namely PDF, HTML and Web help.</p></div>
             </li></ol></section>
     </div>
 </article></main></body></html>

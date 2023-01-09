@@ -1,0 +1,55 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta charset="UTF-8"><meta name="DC.rights.owner" content="(C) Copyright 2023"><meta name="copyright" content="(C) Copyright 2023"><meta name="generator" content="DITA-OT"><meta name="DC.type" content="task"><meta name="description" content="Share your published documentation with your audience."><meta name="DC.format" content="HTML5"><meta name="DC.identifier" content="sharing_your_html5_or_webhelp_outputs"><title>Sharing outputs using the public GitHub Repository</title><link rel="stylesheet" type="text/css" href="commonltr.css"></head><body id="sharing_your_html5_or_webhelp_outputs"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Sharing outputs using the public GitHub Repository</h1>
+    
+    <div class="body taskbody"><p class="shortdesc">Share your published documentation with your audience.</p>
+        <section class="section prereq" id="sharing_your_html5_or_webhelp_outputs__prereq_msv_bhm_cwb">Ensure that you have uploaded the entire folder containing
+            the XML source files from your computer to the GitHub public repository. <div class="note important note_important" id="sharing_your_html5_or_webhelp_outputs__note_l1l_shm_cwb"><span class="note__title">Important:</span> When you upload the folders from your
+                computer to the GitHub repository, ensure that you preserve the same folder
+                structure. You will typically notice the following sub folders within the
+                    <span class="ph uicontrol">out</span> folder containing the outputs you want to share with
+                your audience.<ul class="ul" id="sharing_your_html5_or_webhelp_outputs__ul_k2b_b3m_cwb">
+                    <li class="li">html5 - containing the files required for the HTML5 output. </li>
+                    <li class="li">pdf-css-html5 - containing the files required for the PDF output. </li>
+                    <li class="li">webhelp-responsive - containing the files required for the web help output.
+                    </li>
+                </ul></div></section>
+        <section class="section context">
+            <p class="p">The GitHub repository enables you to access the source code for your content, but not
+                the content itself. Use this procedure to enable your audience to access your
+                published outputs (HTML, PDF or WebHelp) using the public GitHub repository.</p>
+        </section>
+        <section><ol class="ol steps"><li class="li step">
+                <span class="ph cmd">On an instance of web brower, type <a class="xref" href="http://www.github.com" target="_blank" rel="external noopener">http://www.github.com</a>, and sign in.</span>
+            </li><li class="li step">
+                <span class="ph cmd">From the top left hand side corner, navigate to your pubic repository on
+                    GitHub. </span>
+            </li><li class="li step">
+                <span class="ph cmd">Double-click the <span class="ph uicontrol">out</span> folder to view its contents. </span>
+            </li><li class="li step">
+                <span class="ph cmd">Do the following to share the HTML5 output from GitHub.</span>
+                <ol type="a" class="ol substeps" id="sharing_your_html5_or_webhelp_outputs__substeps_mqb_k3m_cwb">
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Double-click the <span class="ph uicontrol">html5</span> folder on GitHub. </span>
+                    </li>
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Click the <span class="ph uicontrol">index.html </span>file. </span>
+                        <div class="itemgroup info">The file opens in the browser, and the URL will be something like
+                            this:
+                            <pre class="pre codeblock" id="sharing_your_html5_or_webhelp_outputs__codeblock_cwc_fjm_cwb"><code>https://github.com/MickeyMouse123/SampleFolder/blob/main/out/html5/index.html</code></pre></div>
+                    </li>
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">To enable your audience to view the content on GitHub: </span>
+                        <div class="itemgroup info"><cite class="cite">Prefix</cite> the above URL
+                            with:<pre class="pre codeblock" id="sharing_your_html5_or_webhelp_outputs__codeblock_xm5_hjm_cwb"><code>https://htmlpreview.github.io/?</code></pre>so
+                            that the URL finally
+                            becomes:<pre class="pre codeblock" id="sharing_your_html5_or_webhelp_outputs__codeblock_xnq_kjm_cwb"><code>https://htmlpreview.github.io/?https://github.com/MickeyMouse123/SampleFolder/blob/main/out/html5/index.html</code></pre></div>
+                    </li>
+                    <li class="li substep substepexpand">
+                        <span class="ph cmd">Share this URL with your audience. </span>
+                    </li>
+                </ol>
+            </li></ol></section>
+    </div>
+</article></main></body></html>
