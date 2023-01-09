@@ -2,17 +2,18 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="signing_into_github">
     <title>Signing in to GitHub</title>
-    <shortdesc>Sign in to GitHub to access projects and repositories.</shortdesc>
+    <shortdesc>Sign in to GitHub to create and access project repositories.</shortdesc>
     <taskbody>
-        <prereq id="prereq_t1l_n4j_bwb">Before you begin, you must create a GitHub account. </prereq>
+        <prereq id="prereq_t1l_n4j_bwb">Before you begin, ensure that you first create a GitHub
+            account. </prereq>
         <context>
-            <p>After you create an account in GitHub, you can sign in to access your project space
-                or repositories anytime. </p>
+            <p>Use this procedure to sign in to GitHub, to create and access your project
+                repositories anytime. </p>
         </context>
         <steps>
             <step>
-                <cmd>On a browser instance, navigate to: <xref href="www.github.com" format="html"
-                        scope="external"/>.</cmd>
+                <cmd>On a browser instance, navigate to github.com. Type <xref href="www.github.com"
+                        format="html" scope="external"/>.</cmd>
             </step>
             <step>
                 <cmd>On the top right hand corner, click <uicontrol>Sign in</uicontrol>.</cmd>

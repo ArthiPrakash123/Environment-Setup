@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_a_concept_topic">
+    <title>Creating a Concept Topic</title>
+    <shortdesc>Create a concept topic using Oxygen XML Author. </shortdesc>
+    <taskbody>
+        <context>
+            <p>A concept topic provides background that helps readers understand essential
+                information about a product, a task, a process, or any other conceptual or
+                descriptive information. Use this procedure to create a concept topic using Oxygen
+                XML Author. </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open an instance of Oxygen XML Author. </cmd>
+            </step>
+            <step>
+                <cmd>Frm the top left hand corner, click <menucascade>
+                        <uicontrol>File</uicontrol>
+                        <uicontrol>New</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>The <uicontrol>Choose a file template</uicontrol> dialog box
+                    displays.</stepresult>
+            </step>
+            <step>
+                <cmd>Create a concept topic as follows:</cmd>
+                <info>
+                    <fig id="fig_x2k_wbm_cwb">
+                        <image href="Images/Creating%20a%20concept%20topic.png" width="4in"
+                            id="image_kbf_xbm_cwb"/>
+                    </fig>
+                </info>
+                <substeps id="substeps_e5c_1cm_cwb">
+                    <substep>
+                        <cmd>In the field provided, type concept. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Choose <uicontrol>Concept [DITA / Topics]</uicontrol></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the <uicontrol>Title</uicontrol> field, enter a name for your
+                            concept topic. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Observe the path on your computer where the file is being created.
+                            Ensure that the path is correct. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

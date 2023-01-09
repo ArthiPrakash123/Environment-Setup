@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="sample_concept_structure">
+    <title>Sample Concept Structure</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <section id="section_ssw_2pt_cwb">
+            <title>Section 1 Title</title>
+            <p>Details in the section.</p>
+            <p>The following is a unordered list:</p>
+            <ul id="ul_kdy_fpt_cwb">
+                <li>First list item</li>
+                <li>Second list item</li>
+            </ul>
+        </section>
+        <section id="section_l1l_npt_cwb">
+            <title>Section 2 Title</title>
+            <p>Details in the section.</p>
+            <fig id="fig_c5t_nqt_cwb">
+                <title>Sample image</title>
+                <image href="Images/Sample%20image%20for%20task%20structure..png" width="1in"
+                    id="image_ibh_4qt_cwb"/>
+            </fig>
+        </section>
+    </conbody>
+</concept>

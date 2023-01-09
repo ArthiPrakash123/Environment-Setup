@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="sample_reference_structure">
+    <title>Sample reference structure</title>
+    <shortdesc>Short description.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <table frame="all" rowsep="1" colsep="1" id="table_ac4_xqt_cwb">
+            <title>Simple CALS table </title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>First column</entry>
+                        <entry>Second column</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>First row</entry>
+                        <entry>First row</entry>
+                    </row>
+                    <row>
+                        <entry>Second row</entry>
+                        <entry>Second row</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <simpletable frame="all" relcolwidth="1* 1*" id="simpletable_czc_crt_cwb">
+            <sthead>
+                <stentry>Header entry</stentry>
+                <stentry>Header entry</stentry>
+            </sthead>
+            <strow>
+                <stentry>First row</stentry>
+                <stentry>First row</stentry>
+            </strow>
+        </simpletable>
+    </refbody>
+</reference>

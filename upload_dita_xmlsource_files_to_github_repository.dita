@@ -4,7 +4,7 @@
     <title>Uploading DITA XML source files to GitHub repository</title>
     <taskbody>
         <prereq id="prereq_ilc_spj_bwb">Before you begin, ensure that you create a public GitHub
-            repository.</prereq>
+            repository to upload the DITA XML source files.</prereq>
         <context>
             <p>You must upload DITA XML source files from the locally stored folder on your computer
                 to the GitHub repository, so that the files and the published outputs can be viewed
@@ -48,6 +48,7 @@
             </step>
             <step>
                 <cmd>Click <uicontrol>Commit Changes</uicontrol>.</cmd>
+                <stepresult>All your source files are committed to GitHub.</stepresult>
             </step>
         </steps>
     </taskbody>

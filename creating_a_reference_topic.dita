@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_a_reference_topic">
+    <title>Creating a Reference Topic</title>
+    <shortdesc>Create a reference topic using Oxygen XML Author. </shortdesc>
+    <taskbody>
+        <context>
+            <p>Reference topics provide quick access to fact-based information. In technical
+                information, reference topics are used to list product specifications and
+                parameters, provide essential data, and provide detailed information on subjects
+                such as the commands in a programming language. Use this procedure to create a task
+                topic using Oxygen XML Author. </p>
+        </context>
+        <steps id="steps_ng4_xcm_cwb">
+            <step>
+                <cmd>Open an instance of Oxygen XML Author. </cmd>
+            </step>
+            <step>
+                <cmd>Frm the top left hand corner, click <menucascade>
+                        <uicontrol>File</uicontrol>
+                        <uicontrol>New</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>The <uicontrol>Choose a file template</uicontrol> dialog box
+                    displays.</stepresult>
+            </step>
+            <step>
+                <cmd>Create a task topic as follows:</cmd>
+                <info>
+                    <fig id="fig_og4_xcm_cwb">
+                        <image href="Images/Creating%20a%20reference%20topic.png" width="4in"
+                            id="image_otk_ycm_cwb"/>
+                    </fig>
+                </info>
+                <substeps id="substeps_qg4_xcm_cwb">
+                    <substep>
+                        <cmd>In the field provided, type task. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Choose <uicontrol>Reference</uicontrol></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the <uicontrol>Title</uicontrol> field, enter a name for your
+                            reference topic. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Observe the path on your computer where the file is being created.
+                            Ensure that the path is correct. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

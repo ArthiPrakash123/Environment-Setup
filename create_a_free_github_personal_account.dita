@@ -2,10 +2,10 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="create_a_free_github_personal_account">
     <title>Creating a GitHub Account</title>
-    <shortdesc>Before you start work on GitHub, you must first create your personal account. </shortdesc>
+    <shortdesc>Create a GitHub account to serve as your identity on GitHub. </shortdesc>
     <taskbody>
-        <context>Use this procedure to create your own personal and free account to serve as your
-            identity on GitHub.</context>
+        <context>Before you start working on GitHub, you must first create your own personal
+            account. Use this procedure to create your free and personal account.</context>
         <steps>
             <step>
                 <cmd>On a browser instance, navigate to: <xref href="www.github.com" format="html"
@@ -15,8 +15,8 @@
                 <cmd>On the top right hand corner, click <uicontrol>Sign up</uicontrol>.</cmd>
                 <info>
                     <fig id="fig_icf_hrb_bwb">
-                        <image href="Images/SignupForGithub.png" width="5in" id="image_mk5_3rb_bwb"
-                        />
+                        <image href="Images/Create%20a%20GitHub%20account.png" width="6in"
+                            id="image_hcf_jql_cwb"/>
                     </fig>
                 </info>
             </step>

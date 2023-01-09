@@ -1,42 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="publishing_outputs_from_dita_xml">
-    <title>Publishing outputs from DITA XML</title>
+    <title>Publishing outputs from DITA XML using Oxygen</title>
     <taskbody>
         <context>
-            <p>Use this procedure to publish outputs using the default transforms that come with the
-                Oxygen XML authoring tool. </p>
+            <p>Use this procedure to publish outputs using the built-in default XSL transforms
+                available with the Oxygen XML authoring tool. </p>
+            <note id="note_hxp_tyk_cwb" type="note">
+                <p>XSL Transforms (XSLT) process XML documents to convert them to HTML format. XSLT
+                    is a language originally designed for transforming XML documents into formats
+                    such as HTML for web pages, plain text etc., which may subsequently be further
+                    converted to other formats such as PDF. </p>
+            </note>
         </context>
         <steps>
             <step>
-                <cmd>Open the ditamap in the DITA Maps Manager.</cmd>
+                <cmd>Invoke an instance of the Oxygen XML editor on your computer. </cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>File</uicontrol><uicontrol>Open</uicontrol> to navigate to the
+                    location of the main ditamap (that contains other maps and topics) on your
+                    system.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>DITA Maps Manager</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Configure Transformation Scenario(s)</uicontrol>.</cmd>
-                <info>
-                    <fig id="fig_c2y_sh5_1wb">
-                        <image href="Images/Publishing%20outputs.png" id="image_uf5_th5_1wb"/>
-                    </fig>
-                </info>
+                <info><fig id="fig_c2y_sh5_1wb">
+                        <image href="Images/Configure%20Transformation%20Scenarios%20icon.png"
+                            width="4in" id="image_cs5_mbl_cwb"/>
+                    </fig>The <uicontrol>Configure Transformation Scenario(s)</uicontrol> dialog box
+                    displays.</info>
             </step>
             <step>
-                <cmd>Select any or all the following transforms:</cmd>
+                <cmd>Select <cite>one</cite> or <cite>all</cite> the following transforms:</cmd>
                 <info>
                     <ul id="ul_amp_c35_1wb">
-                        <li><uicontrol>DITA Map PDF - based on HTML5 &amp; CSS</uicontrol> (to
-                            publish to PDF)</li>
-                        <li><uicontrol>DITA Map HTML5</uicontrol> (to publish to HTML5)</li>
+                        <li><uicontrol>DITA Map WebHelp Responsive</uicontrol> to publish a web help
+                            output. </li>
+                        <li><uicontrol>DITA Map PDF - based on HTML5 &amp; CSS</uicontrol> to
+                            publish a PDF</li>
+                        <li><uicontrol>DITA Map HTML5</uicontrol> to publish a HTML5 output. </li>
                     </ul>
-                    <fig id="fig_ic1_d35_1wb">
-                        <image href="Images/Publishing%20outputs.png" width="4in"
-                            id="image_vvl_dsj_bwb"/>
+                    <fig id="fig_y41_qbl_cwb">
+                        <image
+                            href="Images/Configure%20Transformation%20Scenarios%20Dialog%20Box.png"
+                            width="5in" id="image_g51_rbl_cwb"/>
                     </fig>
                 </info>
             </step>
             <step>
                 <cmd>Click <uicontrol>Apply associated</uicontrol>.</cmd>
+                <stepresult>The transformation begins. You can view the progress in the progress bar
+                    at the bottom of the editor. <fig id="fig_hfl_ncl_cwb">
+                        <image href="Images/DITA%20transformation%20progress%20bar.png" width="7in"
+                            id="image_hwc_4cl_cwb"/>
+                    </fig><p>Once published, your system automatically displays the published
+                        outputs - namely PDF, HTML and Web help.</p></stepresult>
             </step>
         </steps>
-        <example id="example_mb3_2sj_bwb">Example of the HTML5 output:</example>
     </taskbody>
 </task>

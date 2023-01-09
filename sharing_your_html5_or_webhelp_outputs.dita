@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="sharing_your_html5_or_webhelp_outputs">
+    <title>Sharing outputs using the public GitHub Repository</title>
+    <shortdesc>Share your published documentation with your audience.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_msv_bhm_cwb">Ensure that you have uploaded the entire folder containing
+            the XML source files from your computer to the GitHub public repository. <note
+                id="note_l1l_shm_cwb" type="important">When you upload the folders from your
+                computer to the GitHub repository, ensure that you preserve the same folder
+                structure. You will typically notice the following sub folders within the
+                    <uicontrol>out</uicontrol> folder containing the outputs you want to share with
+                your audience.<ul id="ul_k2b_b3m_cwb">
+                    <li>html5 - containing the files required for the HTML5 output. </li>
+                    <li>pdf-css-html5 - containing the files required for the PDF output. </li>
+                    <li>webhelp-responsive - containing the files required for the web help output.
+                    </li>
+                </ul></note></prereq>
+        <context>
+            <p>The GitHub repository enables you to access the source code for your content, but not
+                the content itself. Use this procedure to enable your audience to access your
+                published outputs (HTML, PDF or WebHelp) using the public GitHub repository.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>On an instance of web brower, type <xref href="http://www.github.com"
+                        format="html" scope="external"/>, and sign in.</cmd>
+            </step>
+            <step>
+                <cmd>From the top left hand side corner, navigate to your pubic repository on
+                    GitHub. </cmd>
+            </step>
+            <step>
+                <cmd>Double-click the <uicontrol>out</uicontrol> folder to view its contents. </cmd>
+            </step>
+            <step>
+                <cmd>Do the following to share the HTML5 output from GitHub.</cmd>
+                <substeps id="substeps_mqb_k3m_cwb">
+                    <substep>
+                        <cmd>Double-click the <uicontrol>html5</uicontrol> folder on GitHub. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click the <uicontrol>index.html </uicontrol>file. </cmd>
+                        <info>The file opens in the browser, and the URL will be something like
+                            this:
+                            <codeblock id="codeblock_cwc_fjm_cwb">https://github.com/MickeyMouse123/SampleFolder/blob/main/out/html5/index.html</codeblock></info>
+                    </substep>
+                    <substep>
+                        <cmd>To enable your audience to view the content on GitHub: </cmd>
+                        <info><cite>Prefix</cite> the above URL
+                            with:<codeblock id="codeblock_xm5_hjm_cwb">https://htmlpreview.github.io/?</codeblock>so
+                            that the URL finally
+                            becomes:<codeblock id="codeblock_xnq_kjm_cwb">https://htmlpreview.github.io/?https://github.com/MickeyMouse123/SampleFolder/blob/main/out/html5/index.html</codeblock></info>
+                    </substep>
+                    <substep>
+                        <cmd>Share this URL with your audience. </cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

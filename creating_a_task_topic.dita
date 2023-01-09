@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_a_task_topic">
+    <title>Creating a Task Topic</title>
+    <shortdesc>Create a task topic using Oxygen XML Author. </shortdesc>
+    <taskbody>
+        <context id="context_w4r_mcm_cwb">
+            <p>A task topic contains a single procedure, which is made up of a series of steps. Each
+                step describes a single action or command for the user to take. A step can also
+                describe the step results. One or more task topics typically follow each concept
+                topic. Use this procedure to create a task topic using Oxygen XML Author. </p>
+        </context>
+        <steps id="steps_myb_qcm_cwb">
+            <step>
+                <cmd>Open an instance of Oxygen XML Author. </cmd>
+            </step>
+            <step>
+                <cmd>Frm the top left hand corner, click <menucascade>
+                        <uicontrol>File</uicontrol>
+                        <uicontrol>New</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>The <uicontrol>Choose a file template</uicontrol> dialog box
+                    displays.</stepresult>
+            </step>
+            <step>
+                <cmd>Create a task topic as follows:</cmd>
+                <info>
+                    <fig id="fig_x2k_wbm_cwb">
+                        <image href="Images/Creating%20a%20task%20topic.png" width="4in"
+                            id="image_csm_scm_cwb"/>
+                    </fig>
+                </info>
+                <substeps id="substeps_e5c_1cm_cwb">
+                    <substep>
+                        <cmd>In the field provided, type task. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Choose <uicontrol>Task [DITA / Topics]</uicontrol></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the <uicontrol>Title</uicontrol> field, enter a name for your task
+                            topic. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Observe the path on your computer where the file is being created.
+                            Ensure that the path is correct. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

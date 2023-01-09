@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="about_ditamaps">
+    <title>What are DITA maps?</title>
+    <shortdesc>Explains DITA maps at a high level. </shortdesc>
+    <conbody>
+        <p>DITA maps are XML documents that organize topics and other resources into structured
+            collections of information. DITA maps specify hierarchy and the relationships among the
+            topics. DITA maps typically have <cmdname>. ditamap</cmdname> file extensions.</p>
+        <p>DITA maps are key components for authoring DITA content. Managing these files and their
+            referenced topics is an important feature of a DITA editor. The <uicontrol>DITA Maps
+                Manager</uicontrol> in Oxygen enables you to view and edit DITA map files.</p>
+    </conbody>
+</concept>

@@ -3,15 +3,15 @@
 <concept id="introduction">
     <title>Introduction</title>
     <conbody>
-        <p>Use this document to install the required software on your computer to develop, review,
-            and publish your very first technical documentation project. </p>
+        <p>Use this document to install the required authoring and publishing tools on your computer
+            to develop and publish your very first technical documentation project. </p>
         <section id="section_z51_v33_bwb">
             <title>Environment set up</title>
-            <p>To document and publish your first technical documentation project, you will need the
-                following:</p>
+            <p>Setting up the environment consists of:</p>
             <ul id="ul_x5w_dq3_bwb">
-                <li>Oxygen XML authoring tool.</li>
-                <li>A public GitHub repository. </li>
+                <li>Setting up the XML authoring environment. <p>You will install the trial version
+                        of the Oxygen XML editor (version 25 or later) on your system. </p></li>
+                <li>Setting up the GitHub environment. </li>
             </ul>
         </section>
     </conbody>

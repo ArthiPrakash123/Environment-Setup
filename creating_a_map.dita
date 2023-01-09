@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_a_map">
+    <title>Creating a ditamap</title>
+    <shortdesc>Create a ditamap using Oxygen XML Author. </shortdesc>
+    <taskbody>
+        <context id="context_hgc_fdm_cwb">
+            <p>DITA maps are documents that organize topics and other resources into structured
+                collections of information. DITA maps specify hierarchy and the relationships among
+                the topics; they also provide the context in which keys are defined and resolved.
+                DITA maps should have . ditamap file extensions. Use this procedure to create a
+                ditamap using Oxygen XML Author. </p>
+        </context>
+        <steps id="steps_bxk_3dm_cwb">
+            <step>
+                <cmd>Open an instance of Oxygen XML Author. </cmd>
+            </step>
+            <step>
+                <cmd>Frm the top left hand corner, click <menucascade>
+                        <uicontrol>File</uicontrol>
+                        <uicontrol>New</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>The <uicontrol>Choose a file template</uicontrol> dialog box
+                    displays.</stepresult>
+            </step>
+            <step>
+                <cmd>Create a map as follows:</cmd>
+                <info>
+                    <fig id="fig_x2k_wbm_cwb">
+                        <image href="Images/Creating%20a%20map.png" width="4in"
+                            id="image_ggc_kdm_cwb"/>
+                    </fig>
+                </info>
+                <substeps id="substeps_e5c_1cm_cwb">
+                    <substep>
+                        <cmd>In the field provided, type map. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Choose <uicontrol>Map [DITA / Topics]</uicontrol></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the <uicontrol>Title</uicontrol> field, enter a name for your map.
+                        </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Observe the path on your computer where the file is being created.
+                            Ensure that the path is correct. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <uicontrol>Create</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

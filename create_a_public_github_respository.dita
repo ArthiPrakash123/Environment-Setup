@@ -2,6 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="create_a_public_github_respository">
     <title>Creating a Public GitHub Respository</title>
+    <shortdesc>Create a public GitHub repository to serve a common location for your audience to
+        view and access your DITA XML source files and published outputs. </shortdesc>
     <taskbody>
         <prereq id="prereq_w1p_hwt_1wb">Sign in to your personal GitHub account. For more
             information, see: <xref href="signing_into_github.dita"/>.</prereq>
@@ -10,22 +12,23 @@
         </context>
         <steps>
             <step>
-                <cmd>On an instance of a web browser, enter <xref href="http://www.github.com"
+                <cmd>On an instance of a web browser, type <xref href="http://www.github.com"
                         format="html" scope="external">www.github.com</xref>.</cmd>
             </step>
             <step>
-                <cmd>Sign in to GitHub with your credentials.</cmd>
+                <cmd>Sign in using your credentials.</cmd>
             </step>
             <step>
                 <cmd>On the top right corner of the page, click the drop-down arrow next to the plus
-                    (+) sign, and select <uicontrol>New repository</uicontrol>.</cmd>
+                    (+) sign, and click <uicontrol>New repository</uicontrol>.</cmd>
                 <info>
                     <fig id="fig_zqk_xnt_1wb">
                         <image href="Images/Create%20a%20public%20Github%20Repository.png"
                             width="2in" id="image_fpw_t4t_1wb"/>
                     </fig>
                 </info>
-                <stepresult>The <uicontrol>Create a new repository</uicontrol> page displays:<fig
+                <stepresult>The <uicontrol>Create a new repository</uicontrol> page displays. Note
+                    that the user ID with which you sign in to GitHub appears as the Owner. <fig
                         id="fig_h1m_lpt_1wb">
                         <image
                             href="Images/Create%20a%20new%20public%20GitHub%20repository%20-%20Enlarged%20image.png"
@@ -33,12 +36,12 @@
                     </fig></stepresult>
             </step>
             <step>
-                <cmd>Create a GitHub repository for your project files.</cmd>
+                <cmd>Create a GitHub repository.</cmd>
                 <substeps id="substeps_g5q_pjc_bwb">
                     <substep>
-                        <cmd>In the <uicontrol>Repository name*</uicontrol> field, enter a name for
-                            your repository of project files.</cmd>
-                        <info>For example, enter: <cite>DITA-XML sample</cite>. </info>
+                        <cmd>In the <uicontrol>Repository name*</uicontrol> field, type a name for
+                            your repository of project files. This field is mandatory.</cmd>
+                        <info>For example, type: <cite>DITA-XML sample</cite>. </info>
                     </substep>
                     <substep importance="optional">
                         <cmd>Enter a description for the repository.</cmd>
@@ -46,9 +49,9 @@
                     <substep>
                         <cmd>Select <uicontrol>Public</uicontrol>.</cmd>
                         <info>
-                            <note id="note_xxc_3qt_1wb" type="important">Ensure that you create a
-                                public repository. That way anyone who has the URL to the repository
-                                will be able to access it.</note>
+                            <note id="note_xxc_3qt_1wb" type="important">Ensure that your repository
+                                is a public one. That way anyone who has the URL to the repository
+                                can access it.</note>
                         </info>
                     </substep>
                     <substep>

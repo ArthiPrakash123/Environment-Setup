@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>Setting up Authoring and Publishing Environment for your Project</title>
+    <title>Setting up the Authoring and Publishing Environment for your Project</title>
     <topicref href="introduction.dita"/>
     <mapref href="setting_up_the_XML_authoring_environment.ditamap" format="ditamap"/>
     <topichead navtitle="Setting up the XML Authoring Environment">
         <topicref href="installing_the_oxygen_xml_authoring_tool.dita"/>
     </topichead>
+    <topichead navtitle="Developing Content in the Oxygen XML Authoring Tool">
+        <topicref href="dita.dita"/>
+        <topicref href="what_are_dita_topics.dita">
+            <topicref href="creating_a_concept_topic.dita"/>
+            <topicref href="creating_a_task_topic.dita"/>
+            <topicref href="creating_a_reference_topic.dita"/>
+        </topicref>
+        <topicref href="about_ditamaps.dita">
+            <topicref href="creating_a_map.dita"/>
+        </topicref>
+    </topichead>
+    <topichead navtitle="Publishing DITA XML outputs in Oxygen">
+        <topicref href="publishing_outputs_from_dita_xml.dita"/>
+    </topichead>
     <mapref href="setting_up_github.ditamap" format="ditamap"/>
     <topichead navtitle="Setting up the GitHub Environment">
         <topicref href="create_a_free_github_personal_account.dita"/>
         <topicref href="signing_into_github.dita"/>
-    </topichead>
-    <mapref href="publishing_the_outputs.ditamap" format="ditamap"/>
-    <topichead navtitle="Publishing the outputs from DITA XML">
         <topicref href="create_a_public_github_respository.dita"/>
-        <topicref href="publishing_outputs_from_dita_xml.dita"/>
+    </topichead>
+    <mapref href="sharing_your_published_outputs_with_your_audience.ditamap" format="ditamap"/>
+    <topichead navtitle="Sharing your HTML5 or WebHelp outputs">
         <topicref href="upload_dita_xmlsource_files_to_github_repository.dita"/>
+        <topicref href="sharing_your_html5_or_webhelp_outputs.dita"/>
     </topichead>
 </map>

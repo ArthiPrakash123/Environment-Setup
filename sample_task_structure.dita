@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="sample_task_structure">
+    <title>Sample Task Structure</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_zzc_spt_cwb">Enter a prerequisite to the task here.</prereq>
+        <context>
+            <p>Describe the task here.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>This is the first step of the task (command to the user).</cmd>
+                <info>This contains more information about the first step. <fig id="fig_eqs_wpt_cwb">
+                        <title>Sample image for the first step</title>
+                        <image href="Images/Sample%20image%20for%20task%20structure..png"
+                            id="image_bx5_bqt_cwb" width="1in"/>
+                    </fig></info>
+                <stepresult>Step result for the first step. </stepresult>
+            </step>
+            <step>
+                <cmd>This is the second step. </cmd>
+            </step>
+        </steps>
+        <example id="example_jc1_hqt_cwb">Example for the task or procedure. </example>
+        <postreq id="postreq_sdz_hqt_cwb">Post requirement or instructions to the user on what to do
+            next. </postreq>
+    </taskbody>
+</task>
