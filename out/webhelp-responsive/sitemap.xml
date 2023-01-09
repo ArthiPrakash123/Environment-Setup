@@ -2,30 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>introduction.html</loc>
-      <lastmod>2023-01-04T03:00:22Z</lastmod>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
    </url>
    <url>
       <loc>installing_the_oxygen_xml_authoring_tool.html</loc>
-      <lastmod>2023-01-04T03:00:22Z</lastmod>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
    </url>
    <url>
-      <loc>create_a_free_github_personal_account.html</loc>
-      <lastmod>2023-01-04T03:00:22Z</lastmod>
+      <loc>dita.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
    </url>
    <url>
-      <loc>signing_into_github.html</loc>
-      <lastmod>2023-01-04T03:00:22Z</lastmod>
+      <loc>what_are_dita_topics.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
    </url>
    <url>
-      <loc>create_a_public_github_respository.html</loc>
-      <lastmod>2023-01-04T03:00:22Z</lastmod>
+      <loc>creating_a_concept_topic.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
+   </url>
+   <url>
+      <loc>creating_a_task_topic.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
+   </url>
+   <url>
+      <loc>creating_a_reference_topic.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
+   </url>
+   <url>
+      <loc>about_ditamaps.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
+   </url>
+   <url>
+      <loc>creating_a_map.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
    </url>
    <url>
       <loc>publishing_outputs_from_dita_xml.html</loc>
-      <lastmod>2023-01-04T03:00:22Z</lastmod>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
+   </url>
+   <url>
+      <loc>create_a_free_github_personal_account.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
+   </url>
+   <url>
+      <loc>signing_into_github.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
+   </url>
+   <url>
+      <loc>create_a_public_github_respository.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
    </url>
    <url>
       <loc>upload_dita_xmlsource_files_to_github_repository.html</loc>
-      <lastmod>2023-01-04T03:00:22Z</lastmod>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
+   </url>
+   <url>
+      <loc>sharing_your_html5_or_webhelp_outputs.html</loc>
+      <lastmod>2023-01-09T03:10:04Z</lastmod>
    </url>
 </urlset>
