@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"about_ditamaps-d262e89":{"topics":[{"title":"Creating a ditamap","shortdesc":"<p class=\"shortdesc\">Create a ditamap using Oxygen XML Author. <\/p>","href":"creating_a_map.html","attributes":{"data-id":"creating_a_map"},"menu":{"hasChildren":false},"tocID":"creating_a_map-d262e100","topics":[]}]}};
